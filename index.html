@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colégio Estadual Barbosa - Página Inicial</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .welcome-title {
+            background-color: #1a3a8f;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+        
+        .welcome-title h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        
+        .content {
+            display: flex;
+            padding: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .image-container {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .text-container {
+            flex: 1;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-left: 20px;
+            color: #333;
+        }
+        
+        .text-container h2 {
+            color: #1a3a8f;
+            margin-top: 0;
+        }
+        
+        .news-container {
+            background-color: #f0f0f0;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        
+        .news-title {
+            text-align: center;
+            color: #1a3a8f;
+            margin-bottom: 20px;
+        }
+        
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .news-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .news-card h3 {
+            color: #1a3a8f;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="p2.html">Arraiá do Barbosa</a></li>
+        </ul>
+    </nav>
+
+    <div class="welcome-title">
+        <h1>Colégio Estadual Barbosa</h1>
+        <p>Educação de qualidade para o futuro de Ivaiporã</p>
+    </div>
+
+    <div class="content">
+        <div class="image-container">
+            <img src="/home/escola/Documentos/barbosa2.jpeg" alt="Foto do Colégio Barbosa">
+        </div>
+        <div class="text-container">
+            <h2>Sobre Nossa Escola</h2>
+            <p>Fundado em 1965, o Colégio Estadual Barbosa é uma instituição de ensino referência em Ivaiporã, oferecendo educação de qualidade do Ensino Fundamental ao Médio.</p>
+            <p>Nossa missão é formar cidadãos críticos, criativos e éticos, preparados para os desafios do século XXI.</p>
+            <p>Contamos com uma equipe de professores qualificados, infraestrutura moderna e projetos pedagógicos inovadores.</p>
+            <h3>Horário de Funcionamento</h3>
+            <p>Segunda a Sexta: 7h30 às 18h</p>
+        </div>
+    </div>
+
+    <div class="news-container">
+        <h2 class="news-title">Notícias e Eventos</h2>
+        <div class="news-grid">
+            <div class="news-card">
+                <h3>Inscrições Abertas</h3>
+                <p>Estão abertas as matrículas para o ano letivo de 2024. Garanta sua vaga!</p>
+            </div>
+            <div class="news-card">
+                <h3>Olimpíada de Matemática</h3>
+                <p>Nossos alunos se destacaram na OBMEP com 3 medalhas de ouro.</p>
+            </div>
+            <div class="news-card">
+                <h3>Arraiá do Barbosa</h3>
+                <p>Confira nossa festa junina tradicional que acontece em junho!</p>
+                <a href="p2.html">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
